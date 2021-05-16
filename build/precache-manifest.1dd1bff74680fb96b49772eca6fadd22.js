@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7284664c58dad971d7c643ad578a4d76",
+    "revision": "d4665386b20305c509b4c1cd5f85a8af",
     "url": "/celo-burner-alfa/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/celo-burner-alfa/static/js/3.3cc8ea8b.chunk.js"
   },
   {
-    "revision": "e91fff7cbf6e4f24d6ce",
-    "url": "/celo-burner-alfa/static/js/main.dcc844b9.chunk.js"
+    "revision": "729d0e5bdf8249739832",
+    "url": "/celo-burner-alfa/static/js/main.02148628.chunk.js"
   },
   {
     "revision": "642212949da164099d56",

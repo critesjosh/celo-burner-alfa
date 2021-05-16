@@ -17,7 +17,7 @@ const core = new BurnerCore({
 
 const BurnerWallet = () =>
   <ModernUI
-    title="Basic Wallet"
+    title="Celo Alfajores Wallet"
     core={core}
     plugins={[]}
   />

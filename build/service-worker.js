@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/celo-burner-alfa/precache-manifest.8ad817bd07107d91b674591c47da2826.js"
+  "/celo-burner-alfa/precache-manifest.1dd1bff74680fb96b49772eca6fadd22.js"
 );
 
 self.addEventListener('message', (event) => {
