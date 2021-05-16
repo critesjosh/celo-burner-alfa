@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/static/js/main.dcc844b9.chunk.js",
-    "main.js.map": "/static/js/main.dcc844b9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.127a19a6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.127a19a6.js.map",
-    "static/js/2.17e5b054.chunk.js": "/static/js/2.17e5b054.chunk.js",
-    "static/js/2.17e5b054.chunk.js.map": "/static/js/2.17e5b054.chunk.js.map",
-    "static/js/3.3cc8ea8b.chunk.js": "/static/js/3.3cc8ea8b.chunk.js",
-    "static/js/3.3cc8ea8b.chunk.js.map": "/static/js/3.3cc8ea8b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8c6359abbbe1dbc3187eab20290dd7f6.js": "/precache-manifest.8c6359abbbe1dbc3187eab20290dd7f6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.17e5b054.chunk.js.LICENSE": "/static/js/2.17e5b054.chunk.js.LICENSE"
+    "main.js": "/celo-burner-alfa/static/js/main.dcc844b9.chunk.js",
+    "main.js.map": "/celo-burner-alfa/static/js/main.dcc844b9.chunk.js.map",
+    "runtime-main.js": "/celo-burner-alfa/static/js/runtime-main.30b82bcd.js",
+    "runtime-main.js.map": "/celo-burner-alfa/static/js/runtime-main.30b82bcd.js.map",
+    "static/js/2.2c37fc6b.chunk.js": "/celo-burner-alfa/static/js/2.2c37fc6b.chunk.js",
+    "static/js/2.2c37fc6b.chunk.js.map": "/celo-burner-alfa/static/js/2.2c37fc6b.chunk.js.map",
+    "static/js/3.3cc8ea8b.chunk.js": "/celo-burner-alfa/static/js/3.3cc8ea8b.chunk.js",
+    "static/js/3.3cc8ea8b.chunk.js.map": "/celo-burner-alfa/static/js/3.3cc8ea8b.chunk.js.map",
+    "index.html": "/celo-burner-alfa/index.html",
+    "precache-manifest.8ad817bd07107d91b674591c47da2826.js": "/celo-burner-alfa/precache-manifest.8ad817bd07107d91b674591c47da2826.js",
+    "service-worker.js": "/celo-burner-alfa/service-worker.js",
+    "static/js/2.2c37fc6b.chunk.js.LICENSE": "/celo-burner-alfa/static/js/2.2c37fc6b.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.127a19a6.js",
-    "static/js/2.17e5b054.chunk.js",
+    "static/js/runtime-main.30b82bcd.js",
+    "static/js/2.2c37fc6b.chunk.js",
     "static/js/main.dcc844b9.chunk.js"
   ]
 }
