@@ -12,14 +12,14 @@ import config from './config.js';
 const core = new BurnerCore({
   signers: [new LocalSigner()],
   gateways: [
-    new HTTPGateway(config.network.alfajores.rpc, config.network.alfajores.chainId),
+    new HTTPGateway(config.network.mainnet.rpc, config.network.mainnet.chainId),
   ],
-  assets: [config.network.alfajores.tokens.celo, config.network.alfajores.tokens.cusd, config.network.alfajores.tokens.ceur],
+  assets: [config.network.mainnet.tokens.celo, config.network.mainnet.tokens.cusd, config.network.mainnet.tokens.ceur],
 });
 
 const BurnerWallet = () =>
   <ModernUI
-    title="Celo Alfajores Wallet"
+    title="Celo Burner Wallet"
     core={core}
     plugins={[]}
   />
