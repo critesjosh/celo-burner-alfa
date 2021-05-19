@@ -20,7 +20,6 @@ let ceur = {
 let celo = {
     id: 'celo',
     name: 'CELO',
-    priceSymbol: 'CELO',
     icon: 'https://drive.google.com/uc?id=1ochzonz8U6iOod_GoMgt_3K8iJ0u7QPc',
 }
 

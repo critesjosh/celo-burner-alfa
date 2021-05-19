@@ -13,7 +13,7 @@ const core = new BurnerCore({
   gateways: [
     new HTTPGateway(config.network.mainnet.rpc, config.network.mainnet.chainId),
   ],
-  assets: [config.network.mainnet.tokens.celo, config.network.mainnet.tokens.cusd, config.network.mainnet.tokens.ceur],
+  assets: [config.network.mainnet.tokens.cusd, config.network.mainnet.tokens.ceur, config.network.mainnet.tokens.celo],
 });
 
 const BurnerWallet = () =>
