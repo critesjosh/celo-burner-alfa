@@ -3,7 +3,7 @@
   "description": "Sample repo for building a wallet using Burner Wallet 2",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://critesjosh.github.io/celo-burner-alfa/",
+  "homepage": "https://rapidcelo.aqal.dev",
   "dependencies": {
     "@burner-wallet/assets": "^1.0.0",
     "@burner-wallet/core": "^1.0.0",
@@ -25,7 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "scripts/deploy.sh"
   },
   "browserslist": {
     "production": [
