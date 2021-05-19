@@ -1,7 +1,8 @@
 const Web3 = require('web3');
 const cookies = require('@burner-wallet/core/lib/cookies');
 const Signer = require('@burner-wallet/core/signers/Signer');
-const CeloWallet = require('@celo/wallet-local')
+const CeloWallet = require('@celo/wallet-local');
+const { privateEncrypt } = require('crypto');
 
 class CeloLocalSigner extends Signer {
   constructor({ privateKey, saveKey=true } = {}) {
@@ -67,15 +68,23 @@ class CeloLocalSigner extends Signer {
   }
 
   _generateAccountFromPK(privateKey) {
-    this.account = new CeloWallet(privateKey)
-    // this.account = (new Web3()).eth.accounts.privateKeyToAccount(privateKey);
+    let wallet = new CeloWallet.LocalWallet()
+    wallet.addAccount(privateKey)
+    this.account = wallet
+    this.account.privateKey = privateKey
+    this.account.address = (new Web3()).eth.accounts.privateKeyToAccount(privateKey).address
     this._saveAccount();
     this.events.emit('accountChange');
   }
 
   _generateNewAccount() {
     let temp_account = (new Web3()).eth.accounts.create();
-    this.account = new CeloWallet(temp_account.privateKey)
+    let privateKey = temp_account.privateKey
+    let wallet = new CeloWallet.LocalWallet()
+    wallet.addAccount(privateKey)
+    this.account = wallet
+    this.account.privateKey = privateKey
+    this.account.address = (new Web3()).eth.accounts.privateKeyToAccount(privateKey).address
     this._saveAccount();
     this.events.emit('accountChange');
   }
