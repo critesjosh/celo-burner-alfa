@@ -8,19 +8,19 @@ let cusd = {
     id: 'cusd',
     name: 'cUSD',
     usdPrice: 1,
-    icon: 'https://i.ibb.co/BfvqKQ0/cusd.png',
+    icon: 'https://gist.githubusercontent.com/critesjosh/0eea0afa90bee14f870177e83808e916/raw/5481ab2045ef812a5b72e5fe77f51309d1c576b3/celo-dollar.svg',
 }
 
 let ceur = {
     id: 'ceur',
     name: 'cEUR',
-    icon: 'https://drive.google.com/uc?id=12En3d0eWLuUAy34Yw2BEgKdHW0BoW12s',  
+    icon: 'https://gist.githubusercontent.com/critesjosh/12756c79203dba7fec3db8db7823d949/raw/b81aa864d79eadd52749868b0a395b638c97eaf4/celo-euro.svg',  
 }
 
 let celo = {
     id: 'celo',
     name: 'CELO',
-    icon: 'https://drive.google.com/uc?id=1ochzonz8U6iOod_GoMgt_3K8iJ0u7QPc',
+    icon: 'https://gist.githubusercontent.com/critesjosh/40cb6177040f0b9847d6d9418afca068/raw/75b79daff74dab026a4764422890ad2559e2466b/celo-circle.svg',
 }
 
 export default {
