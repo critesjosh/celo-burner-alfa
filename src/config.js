@@ -8,7 +8,7 @@ let cusd = {
     id: 'cusd',
     name: 'cUSD',
     usdPrice: 1,
-    icon: 'https://gist.githubusercontent.com/critesjosh/0eea0afa90bee14f870177e83808e916/raw/5481ab2045ef812a5b72e5fe77f51309d1c576b3/celo-dollar.svg',
+    icon: 'https://gist.githubusercontent.com/critesjosh/0eea0afa90bee14f870177e83808e916/raw/4f92f5159e5cc5d47d93fb55467d3eb53959cefd/celo-dollar.svg',
 }
 
 let ceur = {
