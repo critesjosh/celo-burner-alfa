@@ -10,7 +10,7 @@ import './config.js'
 import config from './config.js';
 
 const core = new BurnerCore({
-  signers: [new CeloLocalSigner()],
+  signers: [new LocalSigner()],
   gateways: [
     new HTTPGateway(config.network.mainnet.rpc, config.network.mainnet.chainId),
   ],
